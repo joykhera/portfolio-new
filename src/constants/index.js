@@ -61,7 +61,7 @@ const services = [
         icon: web,
     },
     {
-        title: "Flutter Developer",
+        title: "Mobile Developer",
         icon: mobile,
     },
     {
