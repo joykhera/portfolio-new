@@ -151,29 +151,13 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Full Stack Developer",
-        company_name: "Stevens Student Managed Investment Fund",
-        icon: stevens,
-        iconBg: "#383E56",
-        date: "January 2022 - May 2022",
-        points: [
-            "Developed a full-stack dashboard using React, Flask, Postgres, and Dash for the Student Managed Investment Fund at Stevens Institute of Technology.",
-            "Implemented risk calculations, current holdings, weekly performance, and transaction history features.",
-            "Collaborated with fund managers to gather requirements and deliver a user-friendly interface.",
-            "Ensured system reliability through testing, debugging, and adhering to best practices.",
-        ],
-    },
-    {
-        title: "Backend Developer Intern",
-        company_name: "EquiLend Holdings",
-        icon: equilend,
+        title: "Mobile Developer Intern",
+        company_name: "Fidelity Investments",
+        icon: fidelity,
         iconBg: "#E6DEDD",
-        date: "June 2022 - August 2022",
+        date: "June 2023 - August 2023",
         points: [
-            "Developed a simulation tool for EquiLend Holdings, replicating 24 hours of borrowing activity and improving error prevention, benchmark testing, and scalability assessment.",
-            "Designed and implemented a log analyzing tool, monitoring over 100 million daily logs to identify and address issues promptly.",
-            "Utilized Java, SQL, Spring Boot, Git, WebLogic, and Oracle DB in the development and implementation of projects, ensuring efficient and reliable backend functionality.",
-            "Collaborated with cross-functional teams to gather requirements, design system architecture, and deliver high-quality backend solutions.",
+            "Upcoming mobile development internship at Fidelity Investments, where I will contribute to mobile app development projects under the guidance of industry professionals.",
         ],
     },
     {
@@ -190,13 +174,29 @@ const experiences = [
         ],
     },
     {
-        title: "Mobile Developer Intern",
-        company_name: "Fidelity Investments",
-        icon: fidelity,
+        title: "Backend Developer Intern",
+        company_name: "EquiLend Holdings",
+        icon: equilend,
         iconBg: "#E6DEDD",
-        date: "June 2023 - August 2024",
+        date: "June 2022 - August 2022",
         points: [
-            "Upcoming mobile development internship at Fidelity Investments, where I will contribute to mobile app development projects under the guidance of industry professionals.",
+            "Developed a simulation tool for EquiLend Holdings, replicating 24 hours of borrowing activity and improving error prevention, benchmark testing, and scalability assessment.",
+            "Designed and implemented a log analyzing tool, monitoring over 100 million daily logs to identify and address issues promptly.",
+            "Utilized Java, SQL, Spring Boot, Git, WebLogic, and Oracle DB in the development and implementation of projects, ensuring efficient and reliable backend functionality.",
+            "Collaborated with cross-functional teams to gather requirements, design system architecture, and deliver high-quality backend solutions.",
+        ],
+    },
+    {
+        title: "Full Stack Developer",
+        company_name: "Stevens Student Managed Investment Fund",
+        icon: stevens,
+        iconBg: "#383E56",
+        date: "January 2022 - May 2022",
+        points: [
+            "Developed a full-stack dashboard using React, Flask, Postgres, and Dash for the Student Managed Investment Fund at Stevens Institute of Technology.",
+            "Implemented risk calculations, current holdings, weekly performance, and transaction history features.",
+            "Collaborated with fund managers to gather requirements and deliver a user-friendly interface.",
+            "Ensured system reliability through testing, debugging, and adhering to best practices.",
         ],
     },
 ];
