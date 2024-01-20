@@ -27,12 +27,14 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import postgres from "./tech/postgres.png";
 import tensorflow from "./tech/tensorflow.png";
+import angular from "./tech/angular.png";
 
 import stevens from "./company/stevens.png";
 import equilend from "./company/equilend.png";
 import fidelity from "./company/fidelity.png";
 
-import begreen from "./projects/begreen.png";
+// import begreen from "./projects/begreen.png";
+import roadtrip from "./projects/roadtrip.png";
 import dodgeai from "./projects/dodgeai.png";
 import dodgeskill from "./projects/dodgeskill.png";
 import smcompress from "./projects/smcompress.png";
@@ -65,12 +67,13 @@ export {
   tailwind,
   postgres,
   tensorflow,
+  angular,
   typescript,
   threejs,
   stevens,
   equilend,
   fidelity,
-  begreen,
+  roadtrip,
   dodgeai,
   dodgeskill,
   smcompress,

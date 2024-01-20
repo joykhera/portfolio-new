@@ -17,6 +17,7 @@ import {
     firebase,
     postgres,
     tensorflow,
+    angular,
     git,
     figma,
     docker,
@@ -24,7 +25,7 @@ import {
     equilend,
     fidelity,
     threejs,
-    begreen,
+    roadtrip,
     dodgeai,
     dodgeskill,
     smcompress,
@@ -146,6 +147,10 @@ const technologies = [
     {
         name: "Flask",
         icon: flask,
+    },
+    {
+        name: "Angular",
+        icon: angular,
     },
 ];
 
@@ -296,16 +301,16 @@ const projects = [
         link: "https://joykhera.github.io/snake/",
     },
     {
-        name: "Be Green",
+        name: "Roadtrip Planner",
         description:
-            "A website that encourages users to actively participate in solving environmental issues and fostering a greener planet by presenting daily challenges and providing a chat where users can share their achievements and eco-friendly actions with the community.",
+            "A website that assists users in discovering popular destinations along their travel route, offering tailored suggestions for restaurants, parks, and other attractions based on user preferences and location.",
         tags: [
             {
-                name: "react",
+                name: "svelte",
                 color: "blue-text-gradient",
             },
             {
-                name: "firebase",
+                name: "typescript",
                 color: "green-text-gradient",
             },
             {
@@ -313,8 +318,8 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: begreen,
-        link: "https://be-green.vercel.app/",
+        image: roadtrip,
+        link: "https://roadtrip-drab.vercel.app/",
     },
 ];
 

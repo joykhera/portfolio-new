@@ -60,6 +60,7 @@ const BallCanvas = () => {
     const font = new FontLoader().parse(poppins)
     const [hoveredOn, onHover] = useState(null)
     let text = hoveredOn || 'Technologies'
+    let subText = hoveredOn ? null : '(Hover)';
     const ballSpace = 5
 
     return (
@@ -77,6 +78,12 @@ const BallCanvas = () => {
                     <textGeometry args={[text, { font, size: 0.75, height: 0.5 }]} />
                     <meshLambertMaterial attach='material' color={'white'} />
                 </mesh>
+                {subText && (
+                    <mesh position={[-(subText.length / 6), -1, 0]}>
+                        <textGeometry args={[subText, { font, size: 0.5, height: 0.25 }]} />
+                        <meshLambertMaterial attach='material' color={'gray'} />
+                    </mesh>
+                )}
             </Center>
             <OrbitControls enableZoom={false} zoom={0.5} />
             <Preload all />
