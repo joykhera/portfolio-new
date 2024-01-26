@@ -162,7 +162,9 @@ const experiences = [
         iconBg: "#E6DEDD",
         date: "June 2023 - August 2023",
         points: [
-            "Upcoming mobile development internship at Fidelity Investments, where I will contribute to mobile app development projects under the guidance of industry professionals.",
+            "Worked in a 14-member team to develop goal-setting and advisor-meeting features, impacting over 1 million monthly users on mobile and web platforms.",
+            "Played a key role in improving the financial planning experience, focusing on user interface and performance upgrades.",
+            "Integrated advanced technologies like Angular, TypeScript, Git, Redux, and REST API to enhance product functionality.",
         ],
     },
     {
@@ -189,19 +191,6 @@ const experiences = [
             "Designed and implemented a log analyzing tool, monitoring over 100 million daily logs to identify and address issues promptly.",
             "Utilized Java, SQL, Spring Boot, Git, WebLogic, and Oracle DB in the development and implementation of projects, ensuring efficient and reliable backend functionality.",
             "Collaborated with cross-functional teams to gather requirements, design system architecture, and deliver high-quality backend solutions.",
-        ],
-    },
-    {
-        title: "Full Stack Developer",
-        company_name: "Stevens Student Managed Investment Fund",
-        icon: stevens,
-        iconBg: "#383E56",
-        date: "January 2022 - May 2022",
-        points: [
-            "Developed a full-stack dashboard using React, Flask, Postgres, and Dash for the Student Managed Investment Fund at Stevens Institute of Technology.",
-            "Implemented risk calculations, current holdings, weekly performance, and transaction history features.",
-            "Collaborated with fund managers to gather requirements and deliver a user-friendly interface.",
-            "Ensured system reliability through testing, debugging, and adhering to best practices.",
         ],
     },
 ];
