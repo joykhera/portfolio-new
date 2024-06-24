@@ -40,6 +40,7 @@ import dodgeskill from "./projects/dodgeskill.png";
 import smcompress from "./projects/smcompress.png";
 import snake from "./projects/snake.png";
 import stockvote from "./projects/stockvote.png";
+import musicmap from "./projects/musicmap.png";
 
 export {
   logo,
@@ -78,5 +79,6 @@ export {
   dodgeskill,
   smcompress,
   snake,
+  musicmap,
   stockvote,
 };

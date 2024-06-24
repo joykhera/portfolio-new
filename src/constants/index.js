@@ -29,7 +29,8 @@ import {
     dodgeai,
     dodgeskill,
     smcompress,
-    snake,
+    // snake,
+    musicmap,
     stockvote,
 } from "../assets";
 
@@ -268,26 +269,47 @@ const projects = [
         image: smcompress,
         link: "https://apps.apple.com/us/app/sm-compress/id1604088649",
     },
+    // {
+    //     name: "Snake",
+    //     description:
+    //         "A captivating browser game that offers a unique twist on the classic snake game, incorporating 360-degree movement, special powers, obstacles, and a timed gameplay experience.",
+    //     tags: [
+    //         {
+    //             name: "html",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "css",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "javascript",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: snake,
+    //     link: "https://joykhera.github.io/snake/",
+    // },
     {
-        name: "Snake",
+        name: "Music Map",
         description:
-            "A captivating browser game that offers a unique twist on the classic snake game, incorporating 360-degree movement, special powers, obstacles, and a timed gameplay experience.",
+            "An interactive 3D website for exploring music genres and subgenres, allowing users to visualize their similarities and connect with Spotify for personalized music integration.",
         tags: [
             {
-                name: "html",
+                name: "sklearn",
                 color: "blue-text-gradient",
             },
             {
-                name: "css",
+                name: "threejs",
                 color: "green-text-gradient",
             },
             {
-                name: "javascript",
+                name: "express",
                 color: "pink-text-gradient",
             },
         ],
-        image: snake,
-        link: "https://joykhera.github.io/snake/",
+        image: musicmap,
+        link: "https://musicmapp.vercel.app/",
     },
     {
         name: "Roadtrip Planner",
