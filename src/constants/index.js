@@ -156,18 +156,6 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Mobile Developer Intern",
-        company_name: "Fidelity Investments",
-        icon: fidelity,
-        iconBg: "#E6DEDD",
-        date: "June 2023 - August 2023",
-        points: [
-            "Worked in a 14-member team to develop goal-setting and advisor-meeting features, impacting over 1 million monthly users on mobile and web platforms.",
-            "Played a key role in improving the financial planning experience, focusing on user interface and performance upgrades.",
-            "Integrated advanced technologies like Angular, TypeScript, Git, Redux, and REST API to enhance product functionality.",
-        ],
-    },
-    {
         title: "Algorithm Trading Analyst",
         company_name: "Stevens Student Managed Investment Fund",
         icon: stevens,
@@ -178,6 +166,18 @@ const experiences = [
             "Conducted thorough research and analysis to identify optimal trading opportunities and enhance the fund's performance.",
             "Utilized quantitative analysis techniques and statistical models to identify market inefficiencies and generate profitable trades.",
             "Collaborated with the investment team to backtest and refine the algorithm, ensuring its effectiveness and alignment with the fund's objectives.",
+        ],
+    },
+    {
+        title: "Mobile Developer Intern",
+        company_name: "Fidelity Investments",
+        icon: fidelity,
+        iconBg: "#E6DEDD",
+        date: "June 2023 - August 2023",
+        points: [
+            "Worked in a 14-member team to develop goal-setting and advisor-meeting features, impacting over 1 million monthly users on mobile and web platforms.",
+            "Played a key role in improving the financial planning experience, focusing on user interface and performance upgrades.",
+            "Integrated advanced technologies like Angular, TypeScript, Git, Redux, and REST API to enhance product functionality.",
         ],
     },
     {
