@@ -8,6 +8,7 @@ import { textVariant } from "../utils/motion";
 import { useCallback } from "react";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
+import PropTypes from 'prop-types';  // Import PropTypes
 
 const options = {
   fullScreen: {
@@ -130,11 +131,22 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
+// Adding PropTypes validation
+ExperienceCard.propTypes = {
+  experience: PropTypes.shape({
+    date: PropTypes.string.isRequired,
+    icon: PropTypes.string.isRequired,
+    iconBg: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    company_name: PropTypes.string.isRequired,
+    points: PropTypes.arrayOf(PropTypes.string).isRequired,
+  }).isRequired,
+};
+
 const Experience = () => {
   const particlesInit = useCallback(async engine => {
     await loadFull(engine);
   }, []);
-
 
   return (
     <div className="relative">

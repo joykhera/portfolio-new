@@ -1,5 +1,6 @@
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
+import PropTypes from 'prop-types';  // Import PropTypes
 
 import { styles } from "../styles";
 import { services } from "../constants";
@@ -22,7 +23,7 @@ const ServiceCard = ({ index, title, icon }) => (
       >
         <img
           src={icon}
-          alt='web-development'
+          alt={title}
           className='w-16 h-16 object-contain'
         />
 
@@ -33,6 +34,13 @@ const ServiceCard = ({ index, title, icon }) => (
     </motion.div>
   </Tilt>
 );
+
+// Adding PropTypes validation
+ServiceCard.propTypes = {
+  index: PropTypes.number.isRequired,
+  title: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
+};
 
 const About = () => {
   return (
