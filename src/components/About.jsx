@@ -55,9 +55,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am Joy Khera, a cybersecurity major with strong technical skills
-        in programming languages and software tools. I have worked as an
-        Algorithm Trading Analyst and Software Development Intern.
+        I am Joy Khera, a cybersecurity major pursuing a Algorithmic Trading Certificate.
+        I have strong technical skills in programming languages, software tools, financial
+        engineering, machine learning, and more. I have worked as an Algorithm Trading
+        Analyst, Software Development Intern, and Cybersecurity analyst.
         My project portfolio includes achievements in reinforcement learning,
         web development, mobile game development, and iOS application development.
       </motion.p>

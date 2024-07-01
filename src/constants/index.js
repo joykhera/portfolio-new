@@ -32,6 +32,7 @@ import {
     // snake,
     musicmap,
     stockvote,
+    deloitte,
 } from "../assets";
 
 export const navLinks = [
@@ -154,8 +155,21 @@ const technologies = [
         icon: angular,
     },
 ];
-
+// how many roles we count out. if too many roles, need to remove. under requirement section 2
 const experiences = [
+    {
+        title: "Cybersecurity Analyst",
+        company_name: "Deloitte",
+        icon: deloitte,
+        iconBg: "#383E56",
+        date: "Jun 2024 - July 2024",
+        points: [
+            "Implemented comprehensive end-of-life (EOL) processes and IT asset management enhancements enhancements, including gap anaysis, risk assessments, and reporting frameworks.",
+            "Designed and standardized ITAM reporting requirements and governance committee operations, crafting templates and charters that enhanced decision making and stakeholder communication.",
+            "Integrated robust IT asset risk criticality and compliance controls into enterprice governance systmes, facilitationg streamlined audits and compliance with ITAM standards.",
+            "Created processes for asset exclusions, risk acceptance, and remediation planning, ensuring allignment with strategic business objecticves and operational continuity.",
+        ],
+    },
     {
         title: "Algorithm Trading Analyst",
         company_name: "Stevens Student Managed Investment Fund",
@@ -170,10 +184,10 @@ const experiences = [
         ],
     },
     {
-        title: "Mobile Developer Intern",
+        title: "Fullstack Developer Intern",
         company_name: "Fidelity Investments",
         icon: fidelity,
-        iconBg: "#E6DEDD",
+        iconBg: "#383E56",
         date: "June 2023 - August 2023",
         points: [
             "Worked in a 14-member team to develop goal-setting and advisor-meeting features, impacting over 1 million monthly users on mobile and web platforms.",
@@ -185,7 +199,7 @@ const experiences = [
         title: "Backend Developer Intern",
         company_name: "EquiLend Holdings",
         icon: equilend,
-        iconBg: "#E6DEDD",
+        iconBg: "#383E56",
         date: "June 2022 - August 2022",
         points: [
             "Developed a simulation tool for EquiLend Holdings, replicating 24 hours of borrowing activity and improving error prevention, benchmark testing, and scalability assessment.",

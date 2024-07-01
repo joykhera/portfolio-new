@@ -32,6 +32,7 @@ import angular from "./tech/angular.png";
 import stevens from "./company/stevens.png";
 import equilend from "./company/equilend.png";
 import fidelity from "./company/fidelity.png";
+import deloitte from "./company/deloitte.png";
 
 // import begreen from "./projects/begreen.png";
 import roadtrip from "./projects/roadtrip.png";
@@ -81,4 +82,5 @@ export {
   snake,
   musicmap,
   stockvote,
+  deloitte,
 };
